@@ -2,6 +2,7 @@ package com.utility;
 
 import java.io.File;
 import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -10,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import com.aventstack.extentreports.ExtentReporter;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -94,7 +94,7 @@ public class GenericMethods {
 		}
 			
 		
-		public <SrcFile> void screenshot(SrcFile DestFile) throws IOException
+		public void screenshot(String DestFile) throws IOException
 		{
 			TakesScreenshot scrShot =((TakesScreenshot)driver);
 			File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);

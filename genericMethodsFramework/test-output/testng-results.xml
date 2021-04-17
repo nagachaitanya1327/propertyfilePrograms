@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14416" started-at="2021-04-17T15:12:35 IST" finished-at="2021-04-17T15:12:49 IST">
+  <suite name="Default suite" duration-ms="19893" started-at="2021-04-17T15:35:59 IST" finished-at="2021-04-17T15:36:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14416" started-at="2021-04-17T15:12:35 IST" finished-at="2021-04-17T15:12:49 IST">
+    <test name="Default test" duration-ms="19893" started-at="2021-04-17T15:35:59 IST" finished-at="2021-04-17T15:36:19 IST">
       <class name="test.FlightLogin">
-        <test-method status="PASS" signature="flightlogin()[pri:0, instance:test.FlightLogin@4bbfb90a]" name="flightlogin" duration-ms="14357" started-at="2021-04-17T15:12:35 IST" finished-at="2021-04-17T15:12:49 IST">
+        <test-method status="PASS" signature="flightlogin()[pri:0, instance:test.FlightLogin@4bbfb90a]" name="flightlogin" duration-ms="19816" started-at="2021-04-17T15:35:59 IST" finished-at="2021-04-17T15:36:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightlogin -->
