@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36805" started-at="2021-05-06T14:00:13 IST" finished-at="2021-05-06T14:00:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36805" started-at="2021-05-06T14:00:13 IST" finished-at="2021-05-06T14:00:50 IST">
+      <class name="rightcilckAndDoubleClick.RightClick">
+        <test-method status="PASS" signature="click()[pri:0, instance:rightcilckAndDoubleClick.RightClick@1d16f93d]" name="click" duration-ms="36721" started-at="2021-05-06T14:00:13 IST" finished-at="2021-05-06T14:00:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+      </class> <!-- rightcilckAndDoubleClick.RightClick -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
